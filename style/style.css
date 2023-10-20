@@ -1,0 +1,166 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  max-width: 59.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: var(--gray-primary, #485268);
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal; 
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #c1c1c1;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+}
+
+main {
+  background-color: #fff;
+  padding: 0 4rem;
+}
+
+.container {
+  max-width: 51.5rem;
+  margin: 0 auto;
+}
+
+/* #region title */
+.header {
+  max-width: 51.5rem;
+  padding: 3.2rem 4rem 2.4rem;
+  background-color: #E25544;
+  display: flex;
+  gap: 5rem;
+}
+
+.header__title {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.header__prof {
+  font-size: 1.2rem;
+  margin: .8rem 0;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+
+.header__text {
+  max-width: 35.1rem;
+  color:#fff;
+  line-height: 150%;
+}
+
+.header__img {
+  width: 11.4rem;
+  height: 11.4rem;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 0px -5rem;
+}
+/* #endregion */
+
+/* #region contacts */
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  padding: 2.4rem 0;
+}
+
+.contacts__link {
+  text-decoration: none;
+  color: #485268;
+}
+
+/* #endregion */
+
+/* #region info */
+.info {
+  padding: 2.4rem 0;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  border-top: 1px dashed #DEE2ED;
+}
+
+@media (max-width: 600px) {
+  .info {
+    flex-direction: column;
+  }
+}
+
+.info__title {
+  color:  #E25544;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.info__content {
+  width: 100%;
+  max-width: 36rem;
+}
+
+/* #endregion */
+
+/* #region article */
+.experience {
+  padding-left: .8rem;
+  margin-bottom: 2.4rem;
+  border-left: 1px dashed #DEE2ED;
+}
+
+.experience__links {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.experience:last-child {
+  margin-bottom: 0;
+}
+
+.experience__title {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+
+.experience__text {
+  margin-top: .8rem;
+}
+/* #endregion */
+
+/* #region list */
+
+.skills {
+  display: flex;
+}
+
+.skills__list {
+  margin: 0;
+  padding-left: .8rem;
+  list-style: none;
+  width: 50%;
+  border-left: 1px dashed #DEE2ED;
+}
+
+.skills__item {
+  margin-bottom: 0.8rem;
+}
+
+.skills__item:last-child {
+  margin-bottom: 0;
+}
+/* #endregion  */
+
+footer {
+  height: 3.2rem;
+}
